@@ -13,5 +13,6 @@ module.exports = {
                 name: `content`,
             },
         },
+        'gatsby-plugin-theme-ui',
     ],
 };
