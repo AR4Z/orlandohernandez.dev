@@ -3,6 +3,7 @@ import React from 'react';
 import { Heading } from 'theme-ui'
 import { Link, Container, Styled } from 'theme-ui'
 import { jsx } from "theme-ui"
+import Layout from '../components/layout'
 
 export default function HomePage() {
   const posts = [
@@ -32,111 +33,42 @@ export default function HomePage() {
     }
   ]
   return (
-    <div
-      sx={{
-        display: 'flex',
-        flexDirection: 'column',
-        minHeight: '100vh',
-      }}>
-      <header
+    <Layout>
+      <ul
         sx={{
+          listStyle: 'none',
+          m: 0,
+          px: 3,
           py: 4,
-          variant: 'styles.header',
         }}>
-        <div
-          sx={{
-            display: 'flex',
-            justifyContent: 'center',
-            mb: 3,
-          }}>
-          <Link to='/' title='Home'>
-            <Heading>Orlando Hernandez</Heading>
-          </Link>
-        </div>
-        <div
-          sx={{
-            display: 'flex',
-            justifyContent: 'center',
-          }}>
-          <Link to='/'
+        {posts.map(post => (
+          <li key={post.id}
             sx={{
-              variant: 'styles.navlink',
-              p: 2,
+              mb: 4,
             }}>
-            Inicio
-        </Link>
-          <Link to='/blog'
-            sx={{
-              variant: 'styles.navlink',
-              p: 2,
-            }}>
-            Proyectos
-        </Link>
-          <Link to='/about'
-            sx={{
-              variant: 'styles.navlink',
-              p: 2,
-            }}>
-            Acerca de
-        </Link>
-        </div>
-      </header>
-      <Container
-        p={4}
-        bg='white'
-        sx={{
-          flexGrow: 1,
-          height: '100%'
-        }}>
-        <ul
-          sx={{
-            listStyle: 'none',
-            m: 0,
-            px: 3,
-            py: 4,
-          }}>
-          {posts.map(post => (
-            <li key={post.id}
+            <Styled.h2
               sx={{
-                mb: 4,
+                m: 0,
               }}>
-              <Styled.h2
+              <Link to={post.slug}
                 sx={{
-                  m: 0,
+                  color: 'inherit',
+                  textDecoration: 'none',
+                  ':hover,:focus': {
+                    color: 'primary',
+                    textDecoration: 'underline',
+                  }
                 }}>
-                <Link to={post.slug}
-                  sx={{
-                    color: 'inherit',
-                    textDecoration: 'none',
-                    ':hover,:focus': {
-                      color: 'primary',
-                      textDecoration: 'underline',
-                    }
-                  }}>
-                  {post.title}
-                </Link>
-              </Styled.h2>
-              <small sx={{ fontWeight: 'bold' }}>{post.date}</small>
-              <Styled.p>
-                {post.description}
-              </Styled.p>
-            </li>
-          ))}
-        </ul>
-
-      </Container>
-      <footer
-        sx={{
-          display: 'flex',
-          flexWrap: 'wrap',
-          alignItems: 'center',
-          justifyContent: 'center',
-          p: 2,
-          variant: 'styles.footer',
-        }}>
-        Hecho con &nbsp; <span sx={{ color: '#e25555' }}>&#9829;</span>&nbsp;en Colombia
-</footer>
-
-    </div>
+                {post.title}
+              </Link>
+            </Styled.h2>
+            <small sx={{ fontWeight: 'bold' }}>{post.date}</small>
+            <Styled.p>
+              {post.description}
+            </Styled.p>
+          </li>
+        ))}
+      </ul>
+    </Layout>
   );
 }
