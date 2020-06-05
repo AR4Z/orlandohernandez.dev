@@ -10,9 +10,9 @@ export default {
         256,
         512
     ],
-    sizes: {
-        container: 768,
-      },
+    "sizes": {
+        "container": 768,
+    },
     "fonts": {
         "body": "Poppins, sans-serif",
         "heading": "Poppins, sans-serif",
