@@ -1,9 +1,6 @@
 /** @jsx jsx */
-import React from 'react';
-import { Heading } from 'theme-ui'
-import { Container, Styled } from 'theme-ui'
 import { Link } from 'gatsby'
-import { jsx } from "theme-ui"
+import { Container, Heading, jsx } from 'theme-ui'
 
 export default function Layout({ children }) {
     return (

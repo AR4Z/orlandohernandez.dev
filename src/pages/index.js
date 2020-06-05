@@ -1,9 +1,8 @@
 /** @jsx jsx */
-import React from 'react';
-import { Heading } from 'theme-ui'
-import { Container, Styled } from 'theme-ui'
+import {  Styled, jsx } from 'theme-ui'
 import { Link } from 'gatsby'
-import { jsx } from "theme-ui"
+import { Helmet } from 'react-helmet'
+
 import Layout from '../components/layout'
 
 export default function HomePage() {
@@ -35,6 +34,9 @@ export default function HomePage() {
   ]
   return (
     <Layout>
+      <Helmet>
+        <title>Inicio | Orlando Hernandez</title>
+      </Helmet>
       <ul
         sx={{
           listStyle: 'none',
@@ -65,9 +67,10 @@ export default function HomePage() {
               </Link>
             </Styled.h2>
             <small sx={{ fontWeight: 'bold' }}>{post.date}</small>
-            <Styled.p>
+            <br />
+            <Styled.i>
               {post.description}
-            </Styled.p>
+            </Styled.i>
           </li>
         ))}
       </ul>
