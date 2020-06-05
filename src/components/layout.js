@@ -1,7 +1,8 @@
 /** @jsx jsx */
 import React from 'react';
 import { Heading } from 'theme-ui'
-import { Link, Container, Styled } from 'theme-ui'
+import { Container, Styled } from 'theme-ui'
+import { Link } from 'gatsby'
 import { jsx } from "theme-ui"
 
 export default function Layout({ children }) {
@@ -23,7 +24,7 @@ export default function Layout({ children }) {
                         justifyContent: 'center',
                         mb: 3,
                     }}>
-                    <Link to='/' title='Home'>
+                    <Link to='/' title='Orlando Hernandez' sx={{ textDecoration: 'none' }}>
                         <Heading>Orlando Hernandez</Heading>
                     </Link>
                 </div>
@@ -39,7 +40,7 @@ export default function Layout({ children }) {
                         }}>
                         Inicio
         </Link>
-                    <Link to='/blog'
+                    <Link to='/work'
                         sx={{
                             variant: 'styles.navlink',
                             p: 2,
@@ -62,7 +63,7 @@ export default function Layout({ children }) {
                     flexGrow: 1,
                     height: '100%'
                 }}>
-                { children }
+                {children}
 
             </Container>
             <footer

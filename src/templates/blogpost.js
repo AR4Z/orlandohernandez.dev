@@ -21,7 +21,7 @@ export default function BlogPost(props) {
       <Layout>
         <div>
             <h1>{title}</h1>
-            <i>{description}</i> - <small>{date}</small>
+            <small>{date}</small>
             <div dangerouslySetInnerHTML={{ __html: post.html }} />
         </div>
       </Layout>  

@@ -1,7 +1,8 @@
 /** @jsx jsx */
 import React from 'react';
 import { Heading } from 'theme-ui'
-import { Link, Container, Styled } from 'theme-ui'
+import { Container, Styled } from 'theme-ui'
+import { Link } from 'gatsby'
 import { jsx } from "theme-ui"
 import Layout from '../components/layout'
 
@@ -50,7 +51,8 @@ export default function HomePage() {
               sx={{
                 m: 0,
               }}>
-              <Link to={post.slug}
+              <Link
+                to="/test/"
                 sx={{
                   color: 'inherit',
                   textDecoration: 'none',
