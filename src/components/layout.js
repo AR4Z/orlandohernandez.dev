@@ -1,6 +1,7 @@
 /** @jsx jsx */
 import { Link } from 'gatsby'
-import { Container, Heading, jsx } from 'theme-ui'
+import { Container, Heading, jsx, Grid, Box } from 'theme-ui'
+import SocialIcons from './SocialIcons'
 
 export default function Layout({ children }) {
     return (
@@ -21,9 +22,18 @@ export default function Layout({ children }) {
                         justifyContent: 'center',
                         mb: 3,
                     }}>
-                    <Link to='/' title='Orlando Hernandez' sx={{ textDecoration: 'none' }}>
-                        <Heading>Orlando Hernandez</Heading>
-                    </Link>
+                    <Grid columns={[1]}>
+                        <Box sx={{ textAlign: 'center' }}>
+                            <Link to='/' title='Orlando Hernandez' sx={{ textDecoration: 'none' }}>
+                                <Heading>Orlando Hernandez</Heading>
+                            </Link>
+                        </Box>
+                        <Box>
+                            <SocialIcons/>
+                        </Box>
+                    </Grid>
+
+
                 </div>
                 <div
                     sx={{
