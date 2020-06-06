@@ -10,7 +10,7 @@ export default function WorkPage() {
     {
       id: 1,
       name: 'Coffee UNAL',
-      description: 'Es una aplicación web que permite calcular la cantidad de personal necesario y la asignación óptima de este personal para realizar la recolección de café; esto último se logró mediante el diseño e implementación de un Algoritmo Genético Multiobjetivo.',
+      description: 'Es una aplicación web que permite calcular la cantidad de personal necesario y la asignación óptima de este personal para realizar la recolección de café; esto último, se logró mediante el diseño e implementación de un algoritmo genético multiobjetivo.',
       techs: ['Python', 'Falcon', 'Celery', 'Redis', 'Vuejs', 'Vuetify'],
       url: {
         app: 'http://coffee-unal.herokuapp.com',
@@ -20,7 +20,7 @@ export default function WorkPage() {
     {
       id: 2,
       name: 'Metaurbog',
-      description: 'En este proyecto se desarrollo una aplicación web que permite el modelado y simulación del Metabolismo Urbano de Bogotá D.C. por medio de algoritmos matemáticos.',
+      description: 'En este proyecto se desarrolló una aplicación web que permite el modelado y simulación del metabolismo urbano de Bogotá D.C. por medio de algoritmos matemáticos.',
       techs: ['Python', 'Falcon', 'RQ', 'Redis', 'PostgreSQL', 'MongoDB', 'NetworkX', 'd3', 'Vuejs', 'Docker'],
       url: {
         app: 'https://metaurbog.com',
@@ -30,7 +30,7 @@ export default function WorkPage() {
     {
       id: 3,
       name: 'ROAp',
-      description: 'ROAp es un Repositorio de Objetos de Aprendizaje, permite la administración del objeto de aprendizaje y sus metadatos bajo el estándar LOM (Learning Object Metadata). Los objetos de aprendizaje pueden ser PDF, Vídeo, Imagenes, cotenido HTML etc.',
+      description: 'ROAp es un Repositorio de Objetos de Aprendizaje, permite la administración del objeto de aprendizaje y sus metadatos bajo el estándar LOM (Learning Object Metadata). Los objetos de aprendizaje pueden ser archivos PDF, vídeos, imágenes, contenido HTML entre otros.',
       techs: ['Python', 'Falcon', 'RQ', 'Redis', 'MongoDB', 'ReactJS', 'React Admin', 'Material UI', 'Docker'],
       url: {
         app: 'http://gaia.manizales.unal.edu.co:8081',
@@ -40,7 +40,7 @@ export default function WorkPage() {
     {
       id: 4,
       name: 'FROAC',
-      description: 'FROAC es la Federación de Repositorios de Objetos de Aprendizaje Colombia, esta aplicación permite el acceso a objetos de aprendizaje de distintos repositorios por medio del protocolo OAI-PMH (Open Archive Initiative - Protocol for Metadata Harvesting). Además, cuenta con distintas herramientas de Accesibilidad y Adaptabilidad para facilitar el acceso a los objetos de aprendizaje por parte de personas con distintos perfiles de diversidad.',
+      description: 'FROAC es la Federación de Repositorios de Objetos de Aprendizaje Colombia, esta aplicación permite el acceso a objetos de aprendizaje de distintos repositorios por medio del protocolo OAI-PMH (Open Archive Initiative - Protocol for Metadata Harvesting). Además, cuenta con distintas herramientas de accesibilidad y adaptabilidad para facilitar el acceso a los objetos de aprendizaje por parte de personas con distintos perfiles de diversidad.',
       techs: ['PHP', 'PostgreSQL', 'Javascript', 'Bootstrap'],
       url: {
         app: 'http://gaia.manizales.unal.edu.co/froacAA',
@@ -50,7 +50,7 @@ export default function WorkPage() {
     {
       id: 5,
       name: 'Allyxe',
-      description: 'Allyxe (Accessibility for Everyone) es una barra de accesibilidad que puede ser instalada para mejorar la accesibilidad de un sitio web por medio del uso de distintas herramientas que la componen como: Ajuste de contraste, colores, fuente; Lector de pantalla, Traductor a Lenguaje de Señas Colombiana entre otras. La barra puede ser encontrada en ejecución en FROAC. Próximamente va a ser liberado el código fuente.',
+      description: 'Allyxe (Accessibility for Everyone) es una barra de accesibilidad que puede ser instalada para mejorar la accesibilidad de un sitio web por medio del uso de distintas herramientas que la componen, como: ajuste de contraste, colores, fuente; lector de pantalla, traductor a Lengua de Señas Colombiana, entre otras. La barra puede ser encontrada en ejecución en FROAC (Federación de Repositorios de Objetos de Aprendizaje Colombia). Próximamente será liberado el código fuente.',
       techs: ['Javascript', 'CSS'],
       url: {
         app: 'http://gaia.manizales.unal.edu.co/froacAA',
@@ -60,7 +60,7 @@ export default function WorkPage() {
     {
       id: 6,
       name: 'COLIBRÍ',
-      description: 'COLIBRÍ (Conversor de libros a audio) es un programa para Windows y Linux que permite la conversión de archivos PDF (escaneado o creado manualmente) a un audio; además, la administración y la escucha de los audios generados. La aplicación cuenta con un diseño enfocado en facilitar el uso por personas con baja o visión nula.',
+      description: 'COLIBRÍ (Conversor de libros a audio) es un programa para Windows y Linux que permite la conversión de archivos PDF (escaneado o creado manualmente) a un audio; además, la administración y la escucha de los audios generados. La aplicación cuenta con un diseño enfocado en facilitar el uso por personas con baja visión.',
       techs: ['Python', 'Tkinter', 'SQLite'],
       url: {
         app: 'http://gaia.manizales.unal.edu.co/froacAA',
@@ -74,7 +74,7 @@ export default function WorkPage() {
         <title>Proyectos | Orlando Hernandez</title>
       </Helmet>
       <p>
-        A lo largo de mi carrera como desarrollador he participado en distintos proyectos, en los cuales he trabajado junto a otros desarrolladores y diseñadores. A continuación, puedes ver algunos de estos proyectos:
+        A lo largo de mi carrera como desarrollador he participado en distintos proyectos, en los cuales he trabajado junto a otros desarrolladores, investigadores y diseñadores. A continuación, puedes ver algunos de estos proyectos:
       </p>
       <ul
         sx={{
