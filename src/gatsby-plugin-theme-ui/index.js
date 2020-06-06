@@ -129,5 +129,11 @@ export default {
         "img": {
             "maxWidth": "100%"
         }
-    }
+    },
+    images: {
+        avatar: {
+          width: 170,
+          height: 165,
+        },
+      }
 }
