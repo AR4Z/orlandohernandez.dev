@@ -21,7 +21,7 @@ export default function WorkPage() {
       id: 2,
       name: 'Metaurbog',
       description: 'En este proyecto se desarrollo una aplicación web que permite el modelado y simulación del Metabolismo Urbano de Bogotá D.C. por medio de algoritmos matemáticos.',
-      techs: ['Python', 'Falcon', 'RQ', 'Redis', 'PostgreSQL', 'MongoDB', 'NetworkX', 'd3', 'Vuejs'],
+      techs: ['Python', 'Falcon', 'RQ', 'Redis', 'PostgreSQL', 'MongoDB', 'NetworkX', 'd3', 'Vuejs', 'Docker'],
       url: {
         app: 'https://metaurbog.com',
         code: 'https://github.com/AR4Z/cafe-api'
@@ -61,7 +61,7 @@ export default function WorkPage() {
       id: 6,
       name: 'COLIBRÍ',
       description: 'COLIBRÍ (Conversor de libros a audio) es un programa para Windows y Linux que permite la conversión de archivos PDF (escaneado o creado manualmente) a un audio; además, la administración y la escucha de los audios generados. La aplicación cuenta con un diseño enfocado en facilitar el uso por personas con baja o visión nula.',
-      techs: ['Python', 'Tkinter'],
+      techs: ['Python', 'Tkinter', 'SQLite'],
       url: {
         app: 'http://gaia.manizales.unal.edu.co/froacAA',
         code: 'https://github.com/ar4z/COLIBRI'
