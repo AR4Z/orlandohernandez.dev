@@ -41,7 +41,7 @@ export default {
     "colors": {
         "text": "#000",
         "background": "hsl(10, 10%, 98%)",
-        "primary": "#609",
+        "primary": "#896391",
         "secondary": "#306",
         "muted": "#f6f6f6"
     },

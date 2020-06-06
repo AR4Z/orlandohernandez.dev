@@ -97,7 +97,7 @@ export default function WorkPage() {
                 {project.name}
               </Styled.h2>
               <br />
-              <Styled.p>
+              <Styled.p sx={{ textAlign: 'justify' }}>
                 {project.description}
               </Styled.p>
 

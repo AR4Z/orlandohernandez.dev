@@ -44,12 +44,58 @@ export default function AboutPage() {
             </Box>
           </Grid>
         </div>
-        <div>
+        <div sx={{ textAlign: 'justify' }}>
           <p>
-            Magna do esse occaecat in do ea ad excepteur velit ad aliqua sit. Id minim ex nulla labore voluptate ut incididunt enim enim. Consectetur proident ea Lorem irure anim amet ea. Eu qui anim non irure enim eu cupidatat id adipisicing tempor.
+            Hola! Soy Orlando Hernandez, estudiante de Ciencias de la Computación en la <a href="https://unal.edu.co">UNAL</a>. Además, soy miembro del grupo de investigación <a href="http://gaia.manizales.unal.edu.co">GAIA</a> de la misma universidad donde realizo asistencia en investigación y desarrollo en diferentes proyectos.
           </p>
+          <p>A continuación, puedes ver algunas de las cosas que me interesan y de las que probablemente hable en este sitio: </p>
+          <ul sx={{ listStyle: 'none' }}>
+            <li sx={{
+              "::before": {
+                content: "'λ '"
+              }
+            }}>
+              <strong>Desarrollo web</strong>: Como un desarrollador full stack he tenido que trabajar tanto en el front-end como en el back-end usando diferentes lenguajes y tecnologías.
+            </li>
+
+          </ul>
+
         </div>
       </div>
+      <div sx={{ textAlign: 'justify', }}>
+        <ul sx={{ listStyle: 'none' }}>
+          <li sx={{
+            "::before": {
+              content: "'λ '"
+            }
+          }}>
+            <strong>Administración de sistemas</strong>: Por varios años he estado usando sistemas operativos basados en Linux tales como Debian y Arch en mi computadores del día a día como tambien en los servidores que he administrado.
+            </li>
+
+          <li sx={{
+            "::before": {
+              content: "'λ '"
+            }
+          }}>
+            <strong>Programación funcional</strong>: Desde que conocí este paradigma me volví un apasionado acerca de él. Mis experiencias con los lenguajes funcionales (Haskell, OCaml) me han dejado muchas lecciones valiosas acerca de la programación en general.
+            </li>
+          <li sx={{
+            "::before": {
+              content: "'λ '"
+            }
+          }}>
+            <strong>Otros intereses</strong>: Bases de datos relacionales y no relacionales (NoSQL), control de versiones, scripting, programación a bajo nivel...
+            </li>
+        </ul>
+        <p>
+          En mi día a día puedo hacer un poco de ejercicio, escribir algunas lineas de código, mejorar mis habilidades en Tech, escuchar una buena canción y leer un buen libro.
+          </p>
+
+        <p>
+          Si crees tener alguna oportunidad de trabajo para mi puedes descargar mi CV en PDF aquí o mirar algunos de los proyectos en los que he trabajado para asegurarte de que soy el indicado. No dudes en contactarme al correo ohernandezn@unal.edu.co
+          </p>
+      </div>
+
     </Layout>
   );
 }
