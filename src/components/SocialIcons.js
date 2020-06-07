@@ -1,5 +1,6 @@
+/** @jsx jsx */
 import React from 'react'
-import { Grid, Box } from 'theme-ui'
+import { Grid, Box, jsx } from 'theme-ui'
 import cv from '../assets/pdf/CV-OrlandoHernandez.pdf'
 
 
@@ -28,7 +29,7 @@ export default function SocialIcons() {
                 <a href="https://sourcerer.io/ar4z"><img src="https://sourcerer.io/icons/logo-sharing.svg" height="24px" alt="Sourcerer" /></a>
             </Box>
             <Box>
-                <a href={cv}>
+                <a href={cv} sx={{ color: '#551a8b' }}>
                     CV
                   </a>
             </Box>

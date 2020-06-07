@@ -24,7 +24,7 @@ export default function Layout({ children }) {
                     }}>
                     <Grid columns={[1]}>
                         <Box sx={{ textAlign: 'center' }}>
-                            <Link to='/' title='Orlando Hernandez' sx={{ textDecoration: 'none' }}>
+                            <Link to='/' title='Orlando Hernandez' sx={{ textDecoration: 'none', color: '#551a8b' }}>
                                 <Heading>Orlando Hernandez</Heading>
                             </Link>
                         </Box>
@@ -44,6 +44,7 @@ export default function Layout({ children }) {
                         sx={{
                             variant: 'styles.navlink',
                             p: 2,
+                            color: '#551a8b'
                         }}>
                         Inicio
         </Link>
@@ -51,6 +52,7 @@ export default function Layout({ children }) {
                         sx={{
                             variant: 'styles.navlink',
                             p: 2,
+                            color: '#551a8b'
                         }}>
                         Proyectos
         </Link>
@@ -58,6 +60,7 @@ export default function Layout({ children }) {
                         sx={{
                             variant: 'styles.navlink',
                             p: 2,
+                            color: '#551a8b'
                         }}>
                         Acerca de
         </Link>

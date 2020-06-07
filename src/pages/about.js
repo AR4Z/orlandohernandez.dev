@@ -25,6 +25,7 @@ export default function AboutPage() {
         <div sx={{
           textAlign: 'center'
         }}>
+          <br/>
           <Avatar
             src={profile}
           />
@@ -37,13 +38,11 @@ export default function AboutPage() {
                   fontSize: 1,
                   fontWeight: 'bold',
                 }}>
-                Estudiante de Ciencias de la Computación
+                Computer science student
           </Text>
             </Box>
-            <Box ><a sx={{ fontSize: 1 }} href="http://unal.edu.co">Universidad Nacional de Colombia</a></Box>
-            <Box >
-              <SocialIcons />
-            </Box>
+            <Box ><a sx={{ fontSize: 1 }} href="http://unal.edu.co">National University of Colombia</a></Box>
+            
             <Box>
             <a href="https://es.stackoverflow.com/users/41573/ar4z"><img src="https://es.stackoverflow.com/users/flair/41573.png" width="208" height="58" alt="perfil para AR4Z en Stack Overflow en espa&#241;ol, Preguntas y respuestas para programadores y profesionales de la inform&#225;tica" title="perfil para AR4Z en Stack Overflow en espa&#241;ol, Preguntas y respuestas para programadores y profesionales de la inform&#225;tica"/></a>
             </Box>
@@ -62,13 +61,7 @@ export default function AboutPage() {
             }}>
               <strong>Desarrollo web</strong>: Como desarrollador full stack he tenido que trabajar tanto en el front-end como en el back-end usando diferentes lenguajes y tecnologías.
             </li>
-            <li sx={{
-            "::before": {
-              content: "'λ '"
-            }
-          }}>
-            <strong>Administración de sistemas</strong>: Por varios años he estado usando sistemas operativos basados en Linux tales como Debian y Arch en mi computadores del día a día como tambien en los servidores que he administrado.
-            </li>
+            
 
           </ul>
 
@@ -76,7 +69,13 @@ export default function AboutPage() {
       </div>
       <div sx={{ textAlign: 'justify', }}>
         <ul sx={{ listStyle: 'none' }}>
-          
+        <li sx={{
+            "::before": {
+              content: "'λ '"
+            }
+          }}>
+            <strong>Administración de sistemas</strong>: Por varios años he estado usando sistemas operativos basados en Linux tales como Debian y Arch en mi computadores del día a día como tambien en los servidores que he administrado.
+            </li>
 
           <li sx={{
             "::before": {
