@@ -7,36 +7,14 @@ import Layout from '../components/layout'
 
 export default function HomePage() {
   const posts = [
-    {
-      id: 1,
-      slug: 'test',
-      date: '2020/06/04',
-      title: 'Est ex nulla duis nisi esse duis Lorem do amet dolore dolore.',
-      description: 'Pariatur nisi pariatur qui nostrud velit laborum aute labore ipsum excepteur culpa.',
-      body: 'Laboris ipsum eiusmod et amet. Ipsum aute dolore qui laboris tempor minim voluptate est. Velit eu Lorem ipsum veniam incididunt. Sint quis eiusmod ullamco cillum voluptate. Dolor do occaecat excepteur aliqua et occaecat tempor laborum dolor excepteur consectetur.'
-    },
-    {
-      id: 2,
-      slug: 'test',
-      date: '2020/06/04',
-      title: 'Est ex nulla duis nisi esse duis Lorem do amet dolore dolore.',
-      description: 'Pariatur nisi pariatur qui nostrud velit laborum aute labore ipsum excepteur culpa.',
-      body: 'Laboris ipsum eiusmod et amet. Ipsum aute dolore qui laboris tempor minim voluptate est. Velit eu Lorem ipsum veniam incididunt. Sint quis eiusmod ullamco cillum voluptate. Dolor do occaecat excepteur aliqua et occaecat tempor laborum dolor excepteur consectetur.'
-    },
-    {
-      id: 3,
-      slug: 'test',
-      date: '2020/06/04',
-      title: 'Est ex nulla duis nisi esse duis Lorem do amet dolore dolore.',
-      description: 'Pariatur nisi pariatur qui nostrud velit laborum aute labore ipsum excepteur culpa.',
-      body: 'Laboris ipsum eiusmod et amet. Ipsum aute dolore qui laboris tempor minim voluptate est. Velit eu Lorem ipsum veniam incididunt. Sint quis eiusmod ullamco cillum voluptate. Dolor do occaecat excepteur aliqua et occaecat tempor laborum dolor excepteur consectetur.'
-    }
+    
   ]
   return (
     <Layout>
       <Helmet>
         <title>Inicio | Orlando Hernandez</title>
       </Helmet>
+      <h2>Parece que aún no he escrito.</h2>
       <ul
         sx={{
           listStyle: 'none',

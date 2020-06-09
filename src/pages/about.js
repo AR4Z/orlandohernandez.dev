@@ -53,7 +53,7 @@ export default function AboutPage() {
             Hola! Soy Orlando Hernandez, estudiante de Ciencias de la Computación en la <a href="https://unal.edu.co">UNAL</a>. Además, soy miembro del grupo de investigación <a href="http://gaia.manizales.unal.edu.co">GAIA</a> de la misma universidad donde realizo asistencia en investigación y desarrollo en diferentes proyectos.
           </p>
           <p>A continuación, puedes ver algunas de las cosas que me interesan y de las que probablemente escriba en este sitio: </p>
-          <ul sx={{ listStyle: 'none' }}>
+          <ul sx={{ listStyle: 'none', padding: 0 }}>
             <li sx={{
               "::before": {
                 content: "'λ '"
@@ -68,7 +68,7 @@ export default function AboutPage() {
         </div>
       </div>
       <div sx={{ textAlign: 'justify', }}>
-        <ul sx={{ listStyle: 'none' }}>
+        <ul sx={{ listStyle: 'none', padding: 0 }}>
         <li sx={{
             "::before": {
               content: "'λ '"
