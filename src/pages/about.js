@@ -38,10 +38,10 @@ export default function AboutPage() {
                   fontSize: 1,
                   fontWeight: 'bold',
                 }}>
-                Computer science student
+                Estudiante de Administración de Sistemas Informáticos
           </Text>
             </Box>
-            <Box ><a sx={{ fontSize: 1 }} href="http://unal.edu.co">National University of Colombia</a></Box>
+            <Box ><a sx={{ fontSize: 1 }} href="http://unal.edu.co">Universidad Nacional de Colombia</a></Box>
             
             <Box>
             <a href="https://es.stackoverflow.com/users/41573/ar4z"><img src="https://es.stackoverflow.com/users/flair/41573.png" width="208" height="58" alt="perfil para AR4Z en Stack Overflow en espa&#241;ol, Preguntas y respuestas para programadores y profesionales de la inform&#225;tica" title="perfil para AR4Z en Stack Overflow en espa&#241;ol, Preguntas y respuestas para programadores y profesionales de la inform&#225;tica"/></a>
@@ -50,7 +50,7 @@ export default function AboutPage() {
         </div>
         <div sx={{ textAlign: 'justify' }}>
           <p>
-            Hola! Soy Orlando Hernandez, estudiante de Ciencias de la Computación en la <a href="https://unal.edu.co">UNAL</a>. Además, soy miembro del grupo de investigación <a href="http://gaia.manizales.unal.edu.co">GAIA</a> de la misma universidad donde realizo asistencia en investigación y desarrollo en diferentes proyectos.
+            Hola! Soy Orlando Hernandez, estudiante de Administración de Sistemas Informáticos en la <a href="https://unal.edu.co">UNAL</a>. Además, soy miembro del grupo de investigación <a href="http://gaia.manizales.unal.edu.co">GAIA</a> de la misma universidad donde realizo asistencia en investigación y desarrollo en diferentes proyectos.
           </p>
           <p>A continuación, puedes ver algunas de las cosas que me interesan y de las que probablemente escriba en este sitio: </p>
           <ul sx={{ listStyle: 'none', padding: 0 }}>
