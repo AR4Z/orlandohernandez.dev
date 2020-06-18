@@ -23,7 +23,7 @@ export default function WorkPage() {
       description: 'En este proyecto se desarrolló una aplicación web que permite el modelado y simulación del metabolismo urbano de Bogotá D.C. por medio de algoritmos matemáticos.',
       techs: ['Python', 'Falcon', 'RQ', 'Redis', 'PostgreSQL', 'MongoDB', 'NetworkX', 'd3', 'Vuejs', 'Docker'],
       url: {
-        app: 'https://metaurbog.com',
+        app: 'https://metaburbog.org',
         code: 'https://github.com/AR4Z/cafe-api'
       }
     },
